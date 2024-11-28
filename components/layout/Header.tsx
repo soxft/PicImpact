@@ -21,13 +21,13 @@ export default async function Header() {
       <div className="justify-start">
         <Logo/>
       </div>
-      <div className="hidden sm:flex gap-1 flex-1 select-none justify-center">
+      <div className="flex gap-1 flex-1 select-none justify-center w-full overflow-x-auto scrollbar-hide">
         <HeaderLink {...props} />
       </div>
-      <div className="flex sm:hidden flex-1"></div>
-      <div className="flex h-full items-center space-x-2 justify-end">
+      {/* <div className="flex sm:hidden flex-1"></div> */}
+      {/* <div className="flex h-full items-center space-x-2 justify-end">
         <DynamicNavbar/>
-      </div>
+      </div> */}
     </div>
   );
-}
+} 

@@ -229,7 +229,7 @@ export default function MasonryItem() {
                       <LinkIcon />
                       分享
                     </Button>
-                    <Button
+                    {/* <Button
                       onClick={() => downloadImg()}
                       disabled={download}
                       variant="outline"
@@ -237,7 +237,7 @@ export default function MasonryItem() {
                     >
                       {download ? <ReloadIcon className="mr-2 h-4 w-4 animate-spin"/> : <DownloadIcon />}
                       下载
-                    </Button>
+                    </Button> */}
                   </div>
                   {MasonryViewData?.exif?.model && MasonryViewData?.exif?.f_number
                     && MasonryViewData?.exif?.exposure_time && MasonryViewData?.exif?.focal_length

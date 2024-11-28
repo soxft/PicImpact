@@ -24,7 +24,7 @@ export const UserFrom = () => {
 
   const toggleVisibility = () => setIsVisible(!isVisible)
 
-  const [email, setEmail] = useState('admin@qq.com')
+  const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [token, setToken] = useState('')
 
@@ -64,7 +64,7 @@ export const UserFrom = () => {
               type="email"
               id="email"
               value={email}
-              placeholder="admin@qq.com"
+              placeholder=""
               onChange={(e) => setEmail(e.target.value)}
               className="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
             />

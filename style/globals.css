@@ -178,7 +178,7 @@
 /* motion */
 
 .show-up-motion {
-  animation: showUp 0.8s 0.5s backwards;
+  /* animation: showUp 0.8s 0.5s backwards; */
 }
 
 @keyframes showUp {

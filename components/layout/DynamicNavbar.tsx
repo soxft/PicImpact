@@ -17,12 +17,12 @@ export default async function DynamicNavbar() {
 
   return (
     <>
-      <div className="flex sm:hidden">
+      {/* <div className="flex sm:hidden">
         <VaulDrawer {...props} />
       </div>
       <div className="hidden sm:flex space-x-2">
         <DropMenu/>
-      </div>
+      </div> */}
     </>
   )
 }
