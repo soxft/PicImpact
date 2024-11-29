@@ -199,7 +199,7 @@ export default function MasonryItem() {
                 <TabsTrigger value="copyright">
                   <div className="flex items-center space-x-2 select-none">
                     <Copyright size={20} />
-                    <span>版权</span>
+                    <span>版权</span> 
                   </div>
                 </TabsTrigger>
               </TabsList>
