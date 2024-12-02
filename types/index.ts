@@ -38,8 +38,8 @@ export type AlbumType = {
 }
 
 export type ExifType = {
-  make: any;
-  model: any;
+  make: string;
+  model: string;
   bits: any;
   data_time: any;
   exposure_time: any;
